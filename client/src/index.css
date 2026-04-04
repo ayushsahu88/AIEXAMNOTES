@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.mermaid svg {
+  display: block;
+  margin: auto;
+}
