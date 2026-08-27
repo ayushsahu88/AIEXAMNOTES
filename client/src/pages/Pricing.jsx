@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import axios from "axios";
-
-// 👉 apna backend URL
-const serverUrl = "http://localhost:5000";
+import { serverUrl } from "../App";
 
 const Pricing = () => {
   const navigate = useNavigate();

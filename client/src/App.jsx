@@ -10,7 +10,7 @@ import History from "./pages/History";
 import PaymentSuccess from "./pages/PaymentSuccess";
 import PaymentFailed from "./pages/PaymentFailed";
 
-export const serverUrl = "http://localhost:5000";
+export const serverUrl = import.meta.env.VITE_SERVER_URL || "http://localhost:5000";
 
 const App = () => {
   const dispatch = useDispatch();
